@@ -1,18 +1,23 @@
 <div class="container mt-30">
-    <div *ngIf="!registerMode" style="text-align: center;">
-        <h1 >Find your MATCH</h1>
+    <div *ngIf="(accountService.currentUser$ | async) === null && !registerMode" style="text-align: center">
+        <h1 >Find YOUR match!</h1>
         <p class="lead">Sing up TODAY!</p>
         <div class="text-center">
             <button (click)="registerToggle()" class="btn btn-primary btn-lg mr-2">Register</button>
             <button class="btn btn-secondary btn-lg mr-2">Learn More</button>
         </div>
     </div>
+</div>
+    <div class="text-center" *ngIf="(accountService.currentUser$  | async) as user">
+        <h1>Welcome to DateR</h1>
+        <p class="lead">You are signed in as {{user.username | titlecase}}</p>
+        <button routerLink="/members" class="btn btn-primary btn-lg mr-2 mt-3">Go to Matches</button>
+    </div>
 
     <div *ngIf="registerMode" class="container">
         <div class="row justify-content-center">
-                <div class="col-4">
-                    <app-register (cancelRegister)="cancelRegisterMode($event)"></app-register>
-                </div>
+            <div class="col-4">
+                <app-register (cancelRegister)="cancelRegisterMode($event)" ></app-register>
             </div>
         </div>
     </div>

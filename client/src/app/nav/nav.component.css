@@ -1,7 +1,14 @@
 .dropdown-toggle, .dropdown-item{
     cursor: pointer;
+    text-decoration: none;
 }
 
 .navbar-brand {
     color: #334fb7;
+}
+
+img{
+    max-height: 35px;
+    border-radius: 50%;
+    display: inline;
 }
