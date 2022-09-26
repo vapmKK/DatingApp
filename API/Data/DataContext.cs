@@ -59,6 +59,7 @@ namespace API.Data
                 .WithMany(m => m.MessagesSent)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            builder.ApplyUtcDateTimeConverter();
         }
     }
 
