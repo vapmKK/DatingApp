@@ -43,6 +43,6 @@ A dating website built using ASP.NET and Angular
 
 ![a](https://i.imgur.com/ptRvX1D.gif)
 
-- **Being able to login as an admin and modify people's roles**
+- **Being able to login as an admin and edit people's roles**
 
 ![a](https://i.imgur.com/hHZ35bX.gif)
