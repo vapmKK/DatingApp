@@ -11,6 +11,7 @@ A dating website built using ASP.NET and Angular
 - [Toastr](https://github.com/CodeSeven/toastr)
 - PostgreSQL
 - Bootstrap
+- Heroku
 
 
 ## Key Features
