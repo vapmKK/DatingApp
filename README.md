@@ -31,6 +31,18 @@ A dating website built using ASP.NET and Angular
 
 ![a](https://i.imgur.com/zrYkRsQ.gif)
 
-- **Being able to add pictures, make a picture your main picture or delete a picture**
+- **Being able to add pictures, make a picture your main picture or delete a picture and the change being persisted to the database**
 
 ![a](https://i.imgur.com/F9fYeDg.gif)
+
+- **Being able to see who's online using SignalR**
+
+![a](https://i.imgur.com/XefiBzK.gif)
+
+- **Being able to send messages and track if a message has been read in real time**
+
+![a](https://i.imgur.com/ptRvX1D.gif)
+
+- **Being able to login as an admin and modify people's roles**
+
+![a](https://i.imgur.com/hHZ35bX.gif)
