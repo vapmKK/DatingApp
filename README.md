@@ -3,6 +3,8 @@
 
 A dating website built using ASP.NET and Angular
 
+[Try the website](https://dater.herokuapp.com/)
+
 ## Built Using
 - ASP.NET
 - Angular
